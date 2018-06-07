@@ -1,0 +1,48 @@
+NNAAMMEE
+	sfsmooth
+DDEESSCCRRIIPPTTIIOONN
+	Multi-dimensional triangle smoothing. 
+SSYYNNOOPPSSIISS
+	sfsmooth < in.rsf > out.rsf repeat=1 adj=n rect#=(1,1,...) diff#=(n,n,...)
+CCOOMMMMEENNTTSS
+	
+	January 2012 program of the month:
+	h_t_t_p_:_/_/_a_h_a_y_._o_r_g_/_b_l_o_g_/_2_0_1_2_/_0_1_/_0_1_/_p_r_o_g_r_a_m_-_o_f_-_t_h_e_-_m_o_n_t_h_-_s_f_s_m_o_o_t_h_/_
+	
+PPAARRAAMMEETTEERRSS
+	b_o_o_l_ _ _ _ aaddjj==nn [y/n]	run in the adjoint mode 
+	b_o_o_l_ _ _ _ ddiiffff##==((nn,,nn,,......)) [y/n]	differentiation on #-th axis 
+	i_n_t_ _ _ _ _ rreecctt##==((11,,11,,......)) 	smoothing radius on #-th axis 
+	i_n_t_ _ _ _ _ rreeppeeaatt==11 	repeat filtering several times
+UUSSEEDD  IINN
+	bei/dpmv/matt
+	bei/dpmv/yalei
+	bei/dwnc/sigmoid
+	bei/dwnc/vofz
+	bei/fdm/kjartjac
+	bei/fld/synmarine
+	bei/ft1/autocor
+	bei/ft1/ft2d
+	bei/ft1/plane4
+	bei/krch/sep73
+	bei/sg/denmark
+	cup/rna3d/real
+	cup/rna3d/sin
+	cwp/geo2006TimeShiftImagingCondition/flat
+	cwp/geo2006TimeShiftImagingCondition/zicig
+	cwp/geo2007StereographicImagingCondition/flat4
+	cwp/geo2007StereographicImagingCondition/gaus1
+	cwp/geo2007StereographicImagingCondition/sigsbee2
+	cwp/geo2008InterferometricImagingCondition/sact1
+	cwp/geo2008InterferometricImagingCondition/sigs2
+	cwp/geo2008IsotropicAngleDomainElasticRTM/marm2allA
+	cwp/geo2008IsotropicAngleDomainElasticRTM/marm2oneA
+	cwp/geo2008NumericWEMVAoperators/flatWEMVA
+	cwp/geo2008NumericWEMVAoperators/saltWEMVA
+	cwp/geo2009VTIModeSeparation/separate3
+	167 more examples listed in:
+	/h2/shijing/Desktop/madagascar/madagascar-2.0/share/doc/madagascar/html/sfsmooth.html
+SSOOUURRCCEE
+	system/generic/Msmooth.c
+VVEERRSSIIOONN
+	2.0

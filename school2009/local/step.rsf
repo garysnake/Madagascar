@@ -1,0 +1,22 @@
+2.0	sfspike	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	o1=0
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	d1=1
+	n1=101
+	in="stdin"
+
+2.0	sfcausint	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+2.0	sfnoise	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/step.rsf@"

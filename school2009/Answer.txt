@@ -1,0 +1,15 @@
+-- Part 1
+
+6.  Module: 2; Dimension: 2; Data stored in horizon.asc
+
+8.  Multi-dimensional triangle smoothing on 1st and 2nd axis, with radius 20km.
+
+10. Does smoothing by sfsmooth change the mean value?
+	No, only the plottying reference changes to mean value; the mean value itself doesn't change
+
+-- Part 2
+
+3.	Yes, the shape of the approximation changes. What is a good
+value for α? don't know yet
+
+4.

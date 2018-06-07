@@ -1,0 +1,55 @@
+2.0	sfspike	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	o1=0
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	d1=1
+	n1=101
+	in="stdin"
+
+2.0	sfcausint	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	data_format="native_float"
+	esize=4
+	in="stdout"
+	in="stdin"
+
+2.0	sfnoise	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:28 2018
+
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/step.rsf@"
+2.0	sfspray	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:32 2018
+
+	d2=1
+	n2=21
+	n3=1
+	o2=-10
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/spray.rsf@"
+2.0	sfdatstretch	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 15:18:32 2018
+
+	o1=0
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/local.rsf@"
+	datnin=101
+	d1=1
+	n1=101
+2.0	sfmath	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 16:45:07 2018
+
+	x2=2
+	input=0
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/triangle.rsf@"
+	x1=1
+2.0	sfstack	Desktop/school2009/local:	shijing@moncrief5.ices.utexas.edu	Thu Jun  7 16:45:07 2018
+
+	n2=1
+	n3=1
+	data_format="native_float"
+	esize=4
+	in="/h2/shijing/RSFDATA/Desktop/school2009/local/tnorm.rsf@"
